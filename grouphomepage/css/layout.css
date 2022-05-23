@@ -1,0 +1,419 @@
+
+body  {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../images/homepage.jpg);
+    background-size: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+section {
+    width: 100px;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/*I got help from my brother for this section*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+/*I learned how to style the navigation bar from this site https://www.w3schools.com/howto/howto_css_fixed_menu.asp.  */
+#nav {
+    color: rgb(255, 253, 253);
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 0;
+
+
+}
+
+nav ul {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    background: rgb(253, 253, 253);
+    width: 100%;
+
+}
+
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 23px;
+    width: 100px;
+    padding: 15px;
+    transition: 0.4s;
+}
+nav li:hover  {
+    background: rgb(0, 132, 255);
+    border-radius: 20px;
+}
+/* I learnt how to structure containers from this page source https://www.w3schools.com/howto/howto_css_fixed_menu.asp.*/
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    font-size: 22px;
+}
+.text-container p:nth-child(2) {
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: rgb(255, 238, 0);
+    font-size: 60px;
+}
+.text-container p:nth-child(3) {
+    font-family: myriad pro regular;
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 30px;
+}
+.text-container p{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%, -42%);
+}
+.model{
+    height:400px;
+    width: 400px;
+    position: absolute;
+    bottom:60px;
+    left:80%;
+    transform:translateX(-70%);
+}
+.manunited-container{
+    width:90%;
+    height:500px;
+    background-image:url(../images/jomi.jpg);
+    border-radius:20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin:-7% auto 20px auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.manunited-container img{
+    height:250px;
+    width: 250px;
+    justify-content: space-evenly
+
+}
+.manunited-text{
+    width:550px;
+    font-size: 30px;
+}
+.manunited-text p:nth-child(1){
+    color: rgb(255, 255, 255);
+    font-family: myriad pro;
+    font-weight:bold;
+    font-size:28px;
+    line-height:0px;
+}
+.manunited-text p:nth-child(2){
+    color: rgb(255, 251, 0);
+    font-size:13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height:5px;
+}
+.manunited-text p:nth-child(3),
+.manunited-text p:nth-child(4) {
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+    font-size: 16px;
+}
+.arsenal-container{
+    width:90%;
+    height:500px;
+    background-image:url(../images/ma.jpg);
+    border-radius:20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin:-7% auto 20px auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.arsenal-container img{
+    height:250px;
+    width: 250px;
+    justify-content: space-evenly
+
+}
+.arsenal-text{
+    width:550px;
+    font-size: 30px;
+}
+.arsenal-text p:nth-child(1){
+    color: black;
+    font-family: myriad pro;
+    font-weight:bold;
+    font-size:28px;
+    line-height:0px;
+}
+.arsenal-text p:nth-child(2){
+    color: rgb(255, 251, 0);
+    font-size:13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height:5px;
+}
+.arsenal-text p:nth-child(3),
+.arsenal-text p:nth-child(4) {
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+    font-size: 16px;
+}
+.chelsea-container{
+    width:90%;
+    height:500px;
+    background-image:url(../images/charles.jpg);
+    border-radius:20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin:-7% auto 20px auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.chelsea-container img{
+    height:250px;
+    width: 250px;
+    justify-content: space-evenly
+
+}
+.chelsea-text{
+    width:550px;
+    font-size: 30px;
+}
+.chelsea-text p:nth-child(1){
+    color: black;
+    font-family: myriad pro;
+    font-weight:bold;
+    font-size:28px;
+    line-height:0px;
+}
+.chelsea-text p:nth-child(2){
+    color: rgb(255, 251, 0);
+    font-size:13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height:5px;
+}
+.chelsea-text p:nth-child(3),
+.chelsea-text p:nth-child(4) {
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+    font-size: 16px;
+}
+.liverpool-container{
+    width:90%;
+    height:500px;
+    background-image:url(../images/destiny.jpg);
+    border-radius:20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin:-7% auto 20px auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.liverpool-container img{
+    height:250px;
+    width: 250px;
+    justify-content: space-evenly
+
+}
+.liverpool-text{
+    width:550px;
+    font-size: 30px;
+}
+.liverpool-text p:nth-child(1){
+    color: black;
+    font-family: myriad pro;
+    font-weight:bold;
+    font-size:28px;
+    line-height:0px;
+}
+.liverpool-text p:nth-child(2){
+    color: rgb(255, 251, 0);
+    font-size:13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height:5px;
+}
+.liverpool-text p:nth-child(3),
+.liverpool-text p:nth-child(4) {
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+    font-size: 16px;
+}
+.spurs-container{
+    width:90%;
+    height:500px;
+    background-image:url(../images/john.jpg);
+    border-radius:20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin:-7% auto 20px auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.spurs-container img{
+    height:250px;
+    width: 250px;
+    justify-content: space-evenly
+
+}
+.spurs-text{
+    width:550px;
+    font-size: 30px;
+}
+.spurs-text p:nth-child(1){
+    color: black;
+    font-family: myriad pro;
+    font-weight:bold;
+    font-size:28px;
+    line-height:0px;
+}
+.spurs-text p:nth-child(2){
+    color: rgb(255, 251, 0);
+    font-size:13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height:5px;
+}
+.spurs-text p:nth-child(3),
+.spurs-text p:nth-child(4) {
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+    font-size: 16px;
+}
+.mancity-container{
+    width:90%;
+    height:500px;
+    background-image:url(../images/mohammed.jpg);
+    border-radius:20px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    display: flex;
+    margin:-7% auto 20px auto;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mancity-container img{
+    height:250px;
+    width: 250px;
+    justify-content: space-evenly
+
+}
+.mancity-text{
+    width:550px;
+    font-size: 30px;
+}
+.mancity-text p:nth-child(1){
+    color: black;
+    font-family: myriad pro;
+    font-weight:bold;
+    font-size:28px;
+    line-height:0px;
+}
+.mancity-text p:nth-child(2){
+    color: rgb(255, 251, 0);
+    font-size:13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height:5px;
+}
+.mancity-text p:nth-child(3),
+.mancity-text p:nth-child(4) {
+    color: rgb(0, 0, 0);
+    font-family: calibri;
+    font-size: 16px;
+}
+.des{
+    padding: 15px;
+    text-align: center;
+    background-color: coral;
+}
+/*Contact section, info, text some bits from this youtube video https://www.youtube.com/watch?v=7uEqQx4S50E&t=368s */
+
+.contact-info{
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.contact-text h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+/*I found out how to place a card structure from this site https://www.w3schools.com/howto/howto_css_fixed_menu.asp.*/
+.card{
+    background: rgb(255, 255, 255);
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius:20px;
+    cursor: pointer;
+}
+
+.card-icon{
+    font-size: 28px;
+    background:  rgb(0, 17, 255);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px  !important;
+    border-radius: 50%;
+    transition: 0.3 linear;
+}
+.card:hover .card-icon{
+    background: none;
+    color: rgb(224, 0, 0);
+    transform: scale(1.6);
+}
+.card p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+}
+.card:hover p{
+    max-height: 40px;
+    opacity: 1;
+}
+.footer-layout{
+    background-color:rgb(255, 38, 0) ;
+}
